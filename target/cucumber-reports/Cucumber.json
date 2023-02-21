@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user navigates to \"https://techglobal-training.netlify.app/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user moves to \"Practices\" header dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on \"Frontend Testing\" header dropdown option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 15
+                }
+              ],
+              "location": "BaseSteps.userClicksOnHeaderDropdownOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should be navigated to https://techglobal-training.netlify.app/frontend",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on \"Pagination\" card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 15
+                }
+              ],
+              "location": "BaseSteps.userClicksOnCard(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend/pagination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend/pagination\"",
+                  "offset": 28
+                }
+              ],
+              "location": "BaseSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4701643500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 417200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate the main content of the Pagination Page",
+        "description": "",
+        "id": "techglobal-pagination-page-funcitonality;validate-the-main-content-of-the-pagination-page",
+        "after": [
+          {
+            "result": {
+              "duration": 632470400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should see \"Pagination\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user should see \"World City Populations 2022\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"World City Populations 2022\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user should see \"What are the most populated cities in the world? Here is a list of the top five most populated cities in the world:\" paragraph",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What are the most populated cities in the world? Here is a list of the top five most populated cities in the world:\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeParagraph(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TechGlobal Pagination Page Funcitonality",
+    "description": "",
+    "id": "techglobal-pagination-page-funcitonality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/techGlobal.feature",
+    "tags": []
+  }
+]
